@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Casamento — Yasmin e Jhonatan</title>
+  <meta name="description" content="Site do casamento de Yasmin e Jhonatan — informações, curiosidades, lista de presentes." />
+  <link rel="preload" as="image" href="images/noivos-hero.jpg">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Barra superior fixa -->
+  <header class="topbar">
+    <nav class="container">
+      <a class="brand" href="#hero" aria-label="Início">Yasmin &amp; Jhonatan</a>
+      <ul class="menu">
+        <li><a href="#sobre">Os Noivos</a></li>
+        <li><a href="#curiosidades">Curiosidades</a></li>
+        <li><a href="#quando-onde">Quando & Onde</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a class="btn" href="#presentes">Lista de Presentes</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Capa / Hero -->
+  <section id="hero" class="hero" role="banner" aria-label="Capa com foto dos noivos">
+    <div class="hero__overlay"></div>
+    <picture>
+      <!-- coloque uma versão menor para telas pequenas -->
+      <source srcset="images/noivos-hero-mobile.jpg" media="(max-width: 600px)">
+      <img src="images/noivos-hero.jpg" alt="Yasmin e Jhonatan sorrindo ao pôr do sol" loading="eager" />
+    </picture>
+    <div class="hero__content container">
+      <p class="kicker">Vem celebrar com a gente</p>
+      <h1>Yasmin &amp; Jhonatan</h1>
+      <p class="date">quando deus quiser, algum dia de março de 2026 &middot; alguma hora ai</p>
+      <a class="btn btn--light" href="#quando-onde">Ver detalhes</a>
+    </div>
+  </section>
+
+  <!-- Sobre os noivos -->
+  <section id="sobre" class="section">
+    <div class="container grid-2">
+      <article>
+        <h2>Os Noivos</h2>
+        <p>Começou com um café derramado na fila da biblioteca e virou o nosso capítulo favorito. Entre viagens, playlists compartilhadas e risadas fora de hora,
+             descobrimos que o melhor lugar do mundo é onde estamos juntos.</p>
+        <ul class="pill-list" aria-label="Interesses dos noivos">
+          <li>☕ café passado</li>
+          <li>🎞️ filmes de terror</li>
+          <li>🌿 viagens</li>
+          <li>🎸 Sertanejo</li>
+          <li>📷 fotografia</li>
+          <li>🎉 Festas</li>
+          <li>🍹 Bebidas</li>
+          <li>👨‍👩‍👧‍👦 Familia</li>
+          <li>☀️ praia</li>
+        </ul>
+      </article>
+      <aside class="cards">
+        <figure class="card">
+          <img src="images/noiva.jpg" alt="Retrato da noiva Yasmin" loading="lazy">
+          <figcaption>
+            <h3>Yasmin</h3>
+            <p>Vendedora de sonhos que engana velhos, coleciona pôr do sol e cadernos bonitos.</p>
+          </figcaption>
+        </figure>
+        <figure class="card">
+          <img src="images/noivo.jpg" alt="Retrato do noivo Jhonatan" loading="lazy">
+          <figcaption>
+            <h3>Jhonatan</h3>
+            <p>cozinheiro que ama vinil e faz o melhor lanche da galáxia.</p>
+          </figcaption>
+        </figure>
+      </aside>
+    </div>
+  </section>
+
+  <!-- Curiosidades (sem JS, usando <details>) -->
+  <section id="curiosidades" class="section alt">
+    <div class="container">
+      <h2>✨ Curiosidades ✨</h2>
+      <div class="faq">
+        <details>
+          <summary>Como nos conhecemos</summary>
+          <p>Um “ops, desculpa!” virou conversa, que virou passeio, que virou a nossa história.</p>
+        </details>
+        <details>
+          <summary>O pedido</summary>
+          <p>Apontei uma arma na cabeça dele e falei, Jhonatan NÓS VAMOS CASAR!</p>
+        </details>
+        <details>
+          <summary>Dress code</summary>
+          <p>Traje da era Regência Britânica completo. (inspirado em Bridgerton) 😉</p>
+        </details>
+        <details>
+          <summary>Crianças</summary>
+          <p>Amamos os pequenos! COMO DIABOS ALGUÉM CONSEGUE TER 4 FILHOS????? GENTE O SALARIO MINIMO TA 1.500 NO BRASIL!</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quando & Onde -->
+  <section id="quando-onde" class="section">
+    <div class="container grid-3">
+      <div class="info-box">
+        <div class="icon" aria-hidden="true">📅</div>
+        <h3>Data & Hora</h3>
+        <p><strong>18 de Outubro de 2025</strong><br>Chegada: 16h00 &middot; Cerimônia: 16h30</p>
+      </div>
+      <div class="info-box">
+        <div class="icon" aria-hidden="true">📍</div>
+        <h3>Local</h3>
+        <p><strong>Espaço Jardim Aurora</strong><br>R. Paul Harris, 559 - Vila Maj. Cicero de Carvalho, Bebedouro - SP, 14702-016</p>
+        <p><a class="link" href="https://maps.app.goo.gl/gsRLnaMHfR4CGnYn6" target="_blank" rel="noreferrer">Ver no Google Maps</a></p>
+      </div>
+      <div class="info-box">
+        <div class="icon" aria-hidden="true">💌</div>
+        <h3>Confirmação (RSVP)</h3>
+        <p>Confirme sua presença até 30/09.</p>
+        <p><a class="btn" href="mailto:anaebruno@exemplo.com?subject=RSVP%20Casamento%20Ana%20e%20Bruno">Confirmar por e-mail</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Galeria -->
+  <section id="galeria" class="section alt" aria-label="Galeria de fotos do casal">
+    <div class="container">
+      <h2>Nossos Momentos</h2>
+      <div class="masonry" role="list">
+        <figure class="masonry__item" role="listitem">
+          <img src="images/galeria-1.jpg" alt="Passeio na praia">
+        </figure>
+        <figure class="masonry__item" role="listitem">
+          <img src="images/galeria-2.jpg" alt="Café da manhã divertido">
+        </figure>
+        <figure class="masonry__item" role="listitem">
+          <img src="images/galeria-3.jpg" alt="Trilha na serra">
+        </figure>
+        <figure class="masonry__item" role="listitem">
+          <img src="images/galeria-4.jpg" alt="Noite de cinema em casa">
+        </figure>
+        <figure class="masonry__item" role="listitem">
+          <img src="images/galeria-5.jpg" alt="Aniversário surpresa">
+        </figure>
+        <figure class="masonry__item" role="listitem">
+          <img src="images/galeria-6.jpg" alt="Pôr do sol na cidade">
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lista de Presentes -->
+  <section id="presentes" class="section">
+    <div class="container">
+      <h2>Lista de Presentes</h2>
+      <p class="muted">Se preferir, você pode presentear com um item abaixo. Marque como comprado quando for ao site da loja (sem controle aqui, é só uma lista). Também aceitamos pix: <strong>chave: 17992494186</strong>.</p>
+
+      <div class="gift-grid" role="list">
+        <!-- Item de presente -->
+        <article class="gift" role="listitem">
+          <img src="images/presente-1.jpg" alt="Jogo de pratos em cerâmica">
+          <div class="gift__body">
+            <h3>Jogo de pratos (24 peças)</h3>
+            <p>Para os jantares com a família completa.</p>
+            <p class="gift__meta">Loja: Casa & Co. — R$ 389,00</p>
+            <div class="gift__actions">
+              <a class="btn" href="#" aria-label="Comprar jogo de pratos em loja externa">Ver na loja</a>
+              <span class="tag">Cozinha</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="gift" role="listitem">
+          <img src="images/presente-2.jpg" alt="Liquidificador de alta potência">
+          <div class="gift__body">
+            <h3>Liquidificador Pro 900W</h3>
+            <p>Para vitaminas e sopas de inverno.</p>
+            <p class="gift__meta">Loja: Eletro+ — R$ 279,00</p>
+            <div class="gift__actions">
+              <a class="btn" href="#">Ver na loja</a>
+              <span class="tag">Eletro</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="gift" role="listitem">
+          <img src="images/presente-3.jpg" alt="Edredom de algodão 300 fios">
+          <div class="gift__body">
+            <h3>Edredom 300 fios (Queen)</h3>
+            <p>Macio, para maratonar séries juntinhos.</p>
+            <p class="gift__meta">Loja: Conforte — R$ 459,00</p>
+            <div class="gift__actions">
+              <a class="btn" href="#">Ver na loja</a>
+              <span class="tag">Quarto</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="gift" role="listitem">
+          <img src="images/presente-4.jpg" alt="Jogo de facas">
+          <div class="gift__body">
+            <h3>Jogo de facas</h3>
+            <p>Para testar novas receitas.</p>
+            <p class="gift__meta">Loja: ChefHouse — R$ 199,00</p>
+            <div class="gift__actions">
+              <a class="btn" href="#">Ver na loja</a>
+              <span class="tag">Cozinha</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="gift" role="listitem">
+          <img src="images/presente-5.jpg" alt="Conjunto de taças de vinho">
+          <div class="gift__body">
+            <h3>Taças de vinho (6 pçs)</h3>
+            <p>Para brindar cada conquista.</p>
+            <p class="gift__meta">Loja: Vinoteca — R$ 159,00</p>
+            <div class="gift__actions">
+              <a class="btn" href="#">Ver na loja</a>
+              <span class="tag">Jantar</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="gift" role="listitem">
+          <img src="images/presente-6.jpg" alt="Jogo de toalhas felpudas">
+          <div class="gift__body">
+            <h3>Jogo de toalhas (banho + rosto)</h3>
+            <p>Conforto pós banho, todo dia.</p>
+            <p class="gift__meta">Loja: Banho Bom — R$ 229,00</p>
+            <div class="gift__actions">
+              <a class="btn" href="#">Ver na loja</a>
+              <span class="tag">Banho</span>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <p class="muted small">Dica: você pode duplicar o bloco <code>&lt;article class="gift"&gt;</code> para adicionar mais itens.</p>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <div class="container">
+      <p>Com amor, Ana &amp; Bruno — 2025</p>
+      <p class="small">Fotos: coloque as suas em <code>/images/</code>. Tipografia: system fonts. Sem JavaScript.</p>
+    </div>
+  </footer>
+</body>
+</html>
